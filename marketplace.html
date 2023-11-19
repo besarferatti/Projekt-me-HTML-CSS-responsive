@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Assets/css/style.css">
+    <link rel="stylesheet" href="./Assets/css/responsive.css">
+    <link rel="stylesheet" href="./Assets/css/animations.css">
+    <title>NFT Marketplace</title>
+</head>
+<style>
+    body{
+        width: 90%;
+        margin: auto;
+    }
+
+    
+</style>
+<body>
+    <!-- Seksioni i Menus -->
+    <section id="menu">
+        <div class="menu">
+            <h2>NFT Marketplace</h2>
+            <nav>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#aboutus">About us</a></li>
+                    <li><a href="#contactform">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </section>
+    <!-- Seksioni i search -->
+    <section id="searchbar">
+        <div class="search-bar">
+            <input type="text" placeholder="Search" class="search-input">
+            <select class="category-select" id="categorySelect">
+                <option value="gold">Gold</option>
+                <option value="purple">Purple</option>
+                <option value="green">Green</option>
+                <option value="lblue">Light Blue</option>
+                <option value="blue">Blue</option>
+            </select>
+            <label for="priceRange">Price range:</label>
+            <div class="minmax">
+                <input type="text" id="minPrice" placeholder="Min" class="price-input">
+                <input type="text" id="maxPrice" placeholder="Max" class="price-input">
+            </div>
+        </div>
+        
+    </section>
+    <!-- Seksioni i marketit -->
+    <section id="home">
+        <div class="nftitems">
+            <div class="card gold" id="gold">
+                <img src="./Assets/img/1.jpg">
+                <div class="carditems">
+                    <h4>Nft 01</h4>
+                    <h5>Price: <span class="price">0.1 ETH</span></h5>
+                    <input type="button" class="butoninft " value="Buy NFT">
+                </div>
+            </div>
+            <div class="card gold" id="gold">
+                <img src="./Assets/img/2.jpg">
+                <div class="carditems">
+                    <h4>Nft 02</h4>
+                    <h5>Price: <span class="price">0.15 ETH</span></h5>
+                    <input type="button" class="butoninft " value="Buy NFT">
+                </div>
+            </div>
+            <div class="card green" id="green" >
+                <img src="./Assets/img/3.jpg">
+                <div class="carditems">
+                    <h4>Nft 03</h4>
+                    <h5>Price: <span class="price">0.13 ETH</span></h5>
+                    <input type="button" class="butoninft " value="Buy NFT">
+                </div>
+            </div>
+            <div class="card purple" id="purple">
+                <img src="./Assets/img/4.jpg">
+                <div class="carditems">
+                    <h4>Nft 04</h4>
+                    <h5>Price: <span class="price">0.21 ETH</span></h5>
+                    <input type="button" class="butoninft " value="Buy NFT">
+                </div>
+            </div>
+            <div class="card green" id="green">
+                <img src="./Assets/img/5.jpg">
+                <div class="carditems">
+                    <h4>Nft 05</h4>
+                    <h5>Price: <span class="price">0.08 ETH</span></h5>
+                    <input type="button" class="butoninft " value="Buy NFT">
+                </div>
+            </div>
+            <div class="card purple" id="purple">
+                <img src="./Assets/img/6.jpg">
+                <div class="carditems">
+                    <h4>Nft 06</h4>
+                    <h5>Price: <span class="price">0.18 ETH</span></h5>
+                    <input type="button" class="butoninft " value="Buy NFT">
+                </div>
+            </div>
+            <div class="card purple" id="purple">
+                <img src="./Assets/img/7.jpg">
+                <div class="carditems">
+                    <h4>Nft 07</h4>
+                    <h5>Price: <span class="price">0.19 ETH</span></h5>
+                    <input type="button" class="butoninft " value="Buy NFT">
+                </div>
+            </div>
+        </div>
+        <div class="nftitems">
+            <div class="card lblue">
+                <img src="./Assets/img/8.jpg">
+                <div class="carditems">
+                    <h4>Nft 08</h4>
+                    <h5>Price: <span class="price">0.25 ETH</span></h5>
+                    <input type="button" class="butoninft " value="Buy NFT">
+                </div>
+            </div>
+            <div class="card green" id="green">
+                <img src="./Assets/img/9.jpg">
+                <div class="carditems">
+                    <h4>Nft 09</h4>
+                    <h5>Price: <span class="price">0.24 ETH</span></h5>
+                    <input type="button" class="butoninft " value="Buy NFT">
+                </div>
+            </div>
+            <div class="card green" id="green">
+                <img src="./Assets/img/10.jpg">
+                <div class="carditems">
+                    <h4>Nft 10</h4>
+                    <h5>Price: <span class="price">0.26 ETH</span></h5>
+                    <input type="button" class="butoninft " value="Buy NFT">
+                </div>
+            </div>
+            <div class="card blue">
+                <img src="./Assets/img/11.jpg">
+                <div class="carditems">
+                    <h4>Nft 11</h4>
+                    <h5>Price: <span class="price">0.34 ETH</span></h5>
+                    <input type="button" class="butoninft " value="Buy NFT">
+                </div>
+            </div>
+            <div class="card purple" id="purple">
+                <img src="./Assets/img/12.jpg">
+                <div class="carditems">
+                    <h4>Nft 12</h4>
+                    <h5>Price: <span class="price">0.3 ETH</span></h5>
+                    <input type="button" class="butoninft " value="Buy NFT">
+                </div>
+            </div>
+            <div class="card blue">
+                <img src="./Assets/img/13.jpg">
+                <div class="carditems">
+                    <h4>Nft 13</h4>
+                    <h5>Price: <span class="price">0.04 ETH</span></h5>
+                    <input type="button" class="butoninft " value="Buy NFT">
+                </div>
+            </div>
+            <div class="card green" id="green">
+                <img src="./Assets/img/14.jpg">
+                <div class="carditems">
+                    <h4>Nft 14</h4>
+                    <h5>Price: <span class="price">0.09 ETH</span></h5>
+                    <input type="button" class="butoninft " value="Buy NFT">
+                </div>
+            </div>
+        </div>
+        <div class="nftitems">
+            <div class="card purple" id="purple">
+                <img src="./Assets/img/15.jpg">
+                <div class="carditems">
+                    <h4>Nft 15</h4>
+                    <h5>Price: <span class="price">0.07 ETH</span></h5>
+                    <input type="button" class="butoninft " value="Buy NFT">
+                </div>
+            </div>
+            <div class="card lblue">
+                <img src="./Assets/img/16.jpg">
+                <div class="carditems">
+                    <h4>Nft 16</h4>
+                    <h5>Price: <span class="price">0.05 ETH</span></h5>
+                    <input type="button" class="butoninft " value="Buy NFT">
+                </div>
+            </div>
+            <div class="card gold" id="gold">
+                <img src="./Assets/img/17.jpg">
+                <div class="carditems">
+                    <h4>Nft 17</h4>
+                    <h5>Price: <span class="price">0.16 ETH</span></h5>
+                    <input type="button" class="butoninft " value="Buy NFT">
+                </div>
+            </div>
+            <div class="card blue">
+                <img src="./Assets/img/18.jpg">
+                <div class="carditems">
+                    <h4>Nft 18</h4>
+                    <h5>Price: <span class="price">0.11 ETH</span></h5>
+                    <input type="button" class="butoninft " value="Buy NFT">
+                </div>
+            </div>
+            <div class="card blue">
+                <img src="./Assets/img/19.jpg">
+                <div class="carditems">
+                    <h4>Nft 19</h4>
+                    <h5>Price: <span class="price">0.14 ETH</span></h5>
+                    <input type="button" class="butoninft " value="Buy NFT">
+                </div>
+            </div>
+            <div class="card lblue">
+                <img src="./Assets/img/20.jpg">
+                <div class="carditems">
+                    <h4>Nft 20</h4>
+                    <h5>Price: <span class="price">0.17 ETH</span></h5>
+                    <input type="button" class="butoninft " value="Buy NFT">
+                </div>
+            </div>
+            <div class="card purple" id="purple">
+                <img src="./Assets/img/21.jpg">
+                <div class="carditems">
+                    <h4>Nft 21</h4>
+                    <h5>Price: <span class="price">0.15 ETH</span></h5>
+                    <input type="button" class="butoninft " value="Buy NFT">
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Seksioni i ekipes -->
+    <section id="aboutus" style="background-color: #333;">
+        
+        <h1>Our Story</h1>
+        <section class="story">
+            <div class="story-content">
+                <h2 class="aboutustext">Our Journey into the NFT World</h2>
+                <img src="Assets/img/team.jpg" style="border-radius: 40px;" alt="">
+                <p>
+                    One day, a passionate team of digital creators set out to revolutionize the world of art and digitized ownership through a standout project: an NFT Marketplace named "DigitalArtHub." The journey began in a small room, but their vision was grand.
+                </p>
+                <p>
+                    The team comprised talented artists, blockchain technology developers, and finance enthusiasts. They had a clear goal: to build an innovative platform where creators could sell and buy their digital art using blockchain technology to ensure authenticity and transparency.
+                </p>
+                <p>
+                    The start was challenging, but after tireless work and full dedication, the team managed to create an attractive and reliable platform for the digital art community. They developed an advanced smart contract system that secured the data of each sold artwork and transferred ownership through blockchain technology.
+                </p>
+            </div>
+        </section>
+    
+        
+    </section>
+    <!-- Seksioni i Kontakt formes -->
+    <section id="contactform">
+        <div class="contact-form-container">
+            <form class="contact-form">
+                <div class="form-row">
+                    <label for="fullName">Full Name:</label>
+                    <input class="contactforma" type="text" id="fullName" name="fullName" required>
+                </div>
+                <div class="form-row">
+                    <label for="email">Email:</label>
+                    <input class="contactforma" type="text" id="email" name="email" required>
+                </div>
+                <div class="form-row">
+                    <label for="company">Company:</label>
+                    <input class="contactforma" type="text" id="company" name="company">
+                </div>
+                <div class="form-row">
+                    <label for="message">Message:</label>
+                    <textarea class="contactforma" id="message" name="message" rows="4" style="border-color: #fc38a1; "></textarea>
+                </div>
+                <div class="form-row">
+                    <button type="submit">Submit</button>
+                </div>
+            </form>
+        </div>
+    </section>
+    <!-- Seksioni i footerit -->
+    <section id="footer">
+        <footer>
+            <p>&copy; 2023 Our <span class="nftfooter">NFT</span> Story</p>
+        </footer>
+    </section>
+</body>
+</html>

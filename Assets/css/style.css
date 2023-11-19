@@ -1,0 +1,288 @@
+
+/* Dizajni i pergjithshem per krejt .html filet */
+@font-face {
+    font-family: myfont;
+    src:url('../font/Roboto-Regular.ttf');
+}
+*{
+    font-family: myfont;
+}
+.price{
+    background-color: #fc38a1;
+    font-size: larger;
+}
+body{
+    background-color: #262625;
+}
+/* Dizajni per index.html */
+h1, h2, h3, h4, h5{
+    color: white;
+    text-align: center;
+}
+
+h4{
+    padding-top: 60px ;
+}
+input[type=email]{
+    text-align: center;
+    padding: 10px;
+    width: 50%;
+    color: white;
+    border-radius: 10px;
+    border: #fc38a1 solid 2px;
+}
+.subscribebutton{
+    width: 20%;
+    border-radius: 10px;
+    padding: 10px;
+    border: #fc38a1 solid 2px;
+    background-color: #262625;
+    color: white;
+}
+.subscribe{
+    margin-left: 22%;
+    flex-direction: row;
+    padding: 0px;
+}
+.buynft{
+    width: 30%;
+    border-radius: 10px;
+    padding: 10px;
+    border: white solid 2px;
+    background-color: #262625;
+    color: white;
+    margin-left: 35%;
+    margin-bottom: 30px;
+    border: #fc38a1 solid 2px;
+    
+}
+
+h1{
+    font-size: 55px;
+}
+input[type=submit]:hover{
+    background-color: #fc38a1;
+    transition-duration: 1s;
+    border: white solid 2px;
+}
+.spannft{
+    background-color: #fc38a1;
+    font-size: 40px;  
+}
+
+.nft{
+    margin: auto;
+    border: 3px solid #fc38a1;
+    width: 40%;
+    margin-top: 10%;
+    border-radius: 30px;   
+}
+  
+/* CSS per marketplace.html */
+
+
+.menu {
+    background-color: #7d7d7d;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+    margin-bottom: 60px;
+    border-radius: 0px 0px 15px 15px;
+}
+
+.menu h2 {
+    color: white;
+    margin: 0;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav li {
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    border-bottom: 2px solid #fc38a1;
+    transition: border-bottom 0.3s ease-in-out;
+}
+
+nav a:hover {
+    border-bottom: 2px solid transparent;
+}
+
+
+.card{
+    width: 13%;
+    border: solid 1px;
+    border-radius: 15px;
+    margin: 5px;
+}
+
+.purple{
+    border: #fc38a1 2px solid;
+}
+.green{
+    border: green 2px solid;
+}
+.blue{
+    border: rgb(92, 92, 253) 2px solid;
+}
+.gold{
+    border: rgb(205, 205, 0) 2px solid;
+}
+.lblue{
+    border: lightskyblue 2px solid;
+}
+
+img{
+    width: 100%;
+}
+.carditems{
+    margin-top: -30%;
+}
+div.nftitems {
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+.nftitems .card{
+    padding: 10px;
+}
+.card img{
+    border-radius: 15px 15px 0px 0px ;
+}
+.card .butoninft {
+    display: none; 
+}
+
+.card:hover .butoninft {
+    display: inline-block; 
+}
+.butoninft {
+    background-color: #fc38a1; 
+    color: white; 
+    padding: 10px 20px; 
+    border: none; 
+    cursor: pointer; 
+    width: 100%;
+    border-radius: 0px 0px 15px 15px ;
+}
+.search-bar {
+    background-color: #7d7d7d;
+    padding: 15px;
+    display: flex;
+    align-items: center;
+    border-radius: 15px 15px 0px 0px;
+    margin-bottom: 20px;
+}
+
+.price-input, .search-input, .category-select {
+    border: 1px solid #fc38a1;
+    border-radius: 10px;
+    padding: 8px;
+    margin-right: 10px; 
+}
+.price-input {
+    width: 30px;
+}
+
+.category-select {
+    width: 150px;
+    color: #7d7d7d;
+    background-color: #fff;
+}
+label {
+    color: #fff;
+    margin-right: 10px;
+}
+
+.story {
+    padding: 40px;
+}
+
+.story-content {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.aboutustext {
+    color:#fc38a1;
+}
+
+p {
+    line-height: 1.6;
+    color: white;
+}
+
+footer {
+    background-color:  #7d7d7d;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    margin-top: 30px;
+}
+img:hover {
+    opacity: 0.6; 
+    transition: opacity 0.3s ease-in-out; 
+}
+.nftfooter{
+    color: #fc38a1;
+    font-size: larger;
+}
+.contact-form-container {
+    max-width: 400px;
+    padding: 30px;
+    background-color: #262625;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border: #fc38a1 solid 1px;
+    margin: auto;
+
+}
+
+.contact-form {
+    display: flex;
+    flex-direction: column;
+}
+
+.form-row {
+    margin-bottom: 15px;
+}
+label {
+    font-weight: bold;
+    color: white;
+}
+
+.contactforma {
+    width: 98%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+
+}
+
+button {
+    background-color: #fc38a1;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+}
+
+button:hover {
+    background-color: #d52a8c;
+}
+#aboutus{
+    margin-bottom: 30px;
+}
